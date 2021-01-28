@@ -5,12 +5,15 @@ import Services from './components/services'
 import Located from './components/located'
 import Reviews from './components/reviews'
 import BeforeAfter from './components/before-after'
+import Header from './components/header'
 
 import { Switch, Route, withRouter, Redirect, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div>
+      <Header/>
+      
       <BrowserRouter>
         <Navbar/>
 
@@ -49,7 +52,7 @@ function App() {
               <BeforeAfter/>
             </Route>
           </Switch>
-          
+
       </BrowserRouter>
     </div>
   );
