@@ -16,7 +16,6 @@ function App() {
       
       <BrowserRouter>
         <Navbar/>
-
           <Switch>
             <Route path='/home'>
               <Home/>

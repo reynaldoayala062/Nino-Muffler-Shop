@@ -206,3 +206,27 @@
     transform: translateY(0) rotate(-45deg);
   }
 }
+
+.map-container {
+  border-radius: 10px;
+  width: 50px;
+  border-color: aqua;
+}
+
+.map {
+  border-color: black;
+  border: 3px solid green;
+}
+
+.car-logo {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
