@@ -8,11 +8,15 @@ import muffler_del_1 from '../images/Muffler-Delete-1.png'
 import muffler_del_2 from '../images/Muffler-Delete-2.png'
 import welding from '../images/Welding.png'
 
+const AllPictures = [ headers, rim_1, rim_2, rim_3, rim_4, rim_5, muffler_del_1, muffler_del_2, welding]
+
+const picture = AllPictures.map((pic) => <img src={pic} alt='' />)
+
 const BeforeAfter = () => {
     return(
         <div>
             <h1> Before/After </h1>
-
+            {picture}
         </div>
     )
 }
