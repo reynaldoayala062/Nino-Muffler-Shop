@@ -233,10 +233,28 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .car {
   padding: 10px;
   border-radius: 10px;
   border-color: rgb(0, 0, 0);
+}
+
+.ba-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+
+.ba-pic {
+  padding: 10px;
+  align-self: center;
+}
+
+.img {
+  width: 200px;
 }

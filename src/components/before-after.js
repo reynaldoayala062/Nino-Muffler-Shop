@@ -10,13 +10,20 @@ import welding from '../images/Welding.png'
 
 const AllPictures = [ headers, rim_1, rim_2, rim_3, rim_4, rim_5, muffler_del_1, muffler_del_2, welding]
 
-const picture = AllPictures.map((pic) => <img src={pic} alt='' />)
+const picture = AllPictures.map((pic) => 
+    <div className='ba-pic'>
+        <img className='img'src={pic} alt='' />
+    </div>  
+)
 
 const BeforeAfter = () => {
     return(
         <div>
             <h1> Before/After </h1>
-            {picture}
+            <div className='ba-container'>
+                {picture}
+            </div>
+            
         </div>
     )
 }
