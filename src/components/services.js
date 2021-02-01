@@ -24,7 +24,7 @@ import volkwagen from '../images/Volkswagen.png'
 const logos = [ acura, amg, audi, bmw, chrysler, corvette, dodge, ferrari, honda, hyundai, jeep, lambo, lexus, mercedes, mitsubishi, mustang, nissan, porsche, ram, subaru, toyota, volkwagen]
 
 const logo = logos.map((l) => 
-    <div >
+    <div className='car'>
         <img className='car-logo' src={l} alt='logo'/>
     </div>
 )

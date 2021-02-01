@@ -221,12 +221,22 @@
 .car-logo {
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 5px;
-  width: 150px;
+  padding: 20px;
+  width: 100px;
 }
 
 .logo-container {
+  margin: "auto";
+  width: "30%";
+  height: "60%";
+  border: rgb(0, 0, 0);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.car {
+  padding: 10px;
+  border-radius: 10px;
+  border-color: rgb(0, 0, 0);
 }
